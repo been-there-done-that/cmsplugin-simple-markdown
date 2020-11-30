@@ -6,7 +6,7 @@ from django.utils.translation import ugettext_lazy as _
 from cms.plugin_base import CMSPluginBase
 from cms.plugin_pool import plugin_pool
 from cmsplugin_simple_markdown.models import SimpleMarkdownPlugin
-from cms.utils.page_resolver import get_page_from_path
+from cms.utils.page import get_page_from_path
 from django_markdown.widgets import MarkdownWidget
 
 
